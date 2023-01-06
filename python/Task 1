@@ -1,0 +1,9 @@
+# write a code to replace a string in a specific position
+
+def replacer(string,position,char):
+
+    l = list(string)
+    l[position] = char
+    return ''.join(l)
+    
+   
